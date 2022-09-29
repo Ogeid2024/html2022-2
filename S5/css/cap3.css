@@ -18,5 +18,12 @@ nav.contenedor{
     text-decoration: underline;
 }
 
+.contenedor>a{
+    text-decoration: none;
+    color:green
+}
 
+.titulo{
+    border:3px double blue;
+}
 
