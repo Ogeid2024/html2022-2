@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+<form>
+    <label for="nombre"> Mi nombre es:</label>
+<input type="text"  id="nombre" placeholder="Ingrese aqui su nombre" minlength="4" required>
+<br>
+<label for="email"> Mi email es:</label>
+<input type="email"  id="email" placeholder="Ingrese aqui su nombre" >
+<br>
+<label for="contraseña"> Contraseña:</label>
+<input type="password"  id="nombre"> 
+<br>
+<label for="fecha"> Fecha:</label>
+<input type="date"  id="fecha" required> 
+<br>
+<label for="distrito">Distrito</label>
+<select>
+    <option>Miraflores</option>
+    <option>VMT</option>
+    <option selected>Surquillo</option>
+</select>
+<br>
+<label>Genero</label>
+<input type="radio" name="genero" id="">Masculino
+<input type="radio" name="genero" id="">Femenino
+<br>
+<label><input type="checkbox">Acepta los terminos y condiciones</label>
+<br>
+<label>Sugerencias</label>
+<label>Sugerencias</label>
+        <textarea cols="30" rows="10"></textarea>
+<br>
+<input type="submit" value="Suscribirme">
+<input type="reset" value="Limpiar">
+</form>
+
+</body>
+</html>
